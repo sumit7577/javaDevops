@@ -1,6 +1,6 @@
 FROM maven:3.8.7-amazoncorretto-19 as builder
 
-WORKDIR /home/ubuntu/javaDevops/java-app
+WORKDIR /app
  
 COPY pom.xml .
  
